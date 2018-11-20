@@ -1,0 +1,112 @@
+.big-block{
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper{
+    /* position: absolute; */
+}
+.block1, .block2, .block3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    }
+.block1{
+    background-color: red;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 5;
+}
+.block2{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    }
+.block3{
+    background-color: green;
+    position: absolute;
+    bottom: 40%;
+    right: 75px;
+    z-index: 3;
+}
+.wrapper2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    border: 2px solid black;
+    margin: 0 auto; 
+}
+.block4{
+    display: none;
+    border-radius: 50px;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        }
+.wrapper2:hover .block4{
+    display: block;
+}
+.header{
+    font-size: 36px;
+    background-color: bisque;
+    color: brown;
+    padding: 50px 0;
+    /* position: fixed; */
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+.footer{
+    font-size: 36px;
+    background-color: fuchsia;
+    color: brown;
+    padding: 50px 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid firebrick;
+    background-image: linear-gradient(rgba(0,130,170,0),rgba(0,130,170,0)),url(../img/PUT\ YOUR\ IMAGE\ HERE@1X.png);
+}
+.menu{
+    position: relative;
+}
+.fierst{
+    /* position: absolute; */
+}
+.submenu{
+    position: absolute;
+    left: 100px;
+    top: 19px;
+}
+.sub-submenu{
+    position: absolute;
+    left: 150px;
+}
+.submenu, .sub-submenu{
+    display: none;
+    }
+.fierst:hover .submenu{
+    display: block;
+}
+.second:hover .sub-submenu{
+    display: block;
+    justify-content: flex-start;
+}

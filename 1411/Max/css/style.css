@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+background-color: blueviolet;
+width: 100px;
+height: 100px;
+margin: 10px;
+padding: 20px;
+float: left;
+overflow: hidden;
+}
+
+.content{
+border: 1px solid red;
+width: 100%;
+height: 200px;
+margin-bottom: 20px;
+box-sizing: content-box;
+}
+.two{
+    background-color: cadetblue;
+    border-radius: 50px;
+}
+.Lorem{
+    width: 100%;
+    word-wrap: break-word;
+   
+}

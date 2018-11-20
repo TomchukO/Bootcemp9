@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,500i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+*{
+    margin: 0 auto;
+    padding: 0px;
+    }
+.header{
+   padding-top: 104px;
+   position: relative;
+  
+}
+.header-title{
+font-family: 'Poppins';
+font-size: 189px;
+color: #eff0f1;
+margin: 0 auto;
+text-align: center;
+letter-spacing: 35px;
+width: 740px;
+text-transform: uppercase;
+line-height: 189px;
+top: 128px;
+}
+.header-img{
+    position: absolute;
+    top: 107px;
+    left: 149px;
+}
+.header-logo{
+padding: 40px 28px 40px;
+position: absolute;
+top: 0;
+left: 50%;
+font-family: 'Playfair Display-Regular';
+font-size: 60px;
+color: white;
+background-color: #80b7b3;
+text-align: center;
+box-shadow: 0px 36px 107px 5px rgba(153,154,154,1);
+transform: translate(-50%);
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 68px 0  150px 0;
+    text-decoration: 
+    }
+.section-img{
+    margin: 0 0 0 166px;
+    box-shadow: -32px 14px 123px -19px rgba(87,87,87,1);
+    border: 12px solid white;
+    }
+.first-section a{
+    text-decoration: none;
+}
+.first-section__article{
+    width: 422px;
+}
+
+.section-link{
+font-family: 'Poppins';
+font-size: 12px;
+color: #dfe1e2;
+}
+.section-title{
+    margin-top: 40px;
+    font-family: Playfair Display-Regular;
+    font-size: 24px;
+    color: #273d46;
+}
+.section-text{
+    font-family: Playfair Display-Regular;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #687378;
+    margin-bottom: 42px;
+}
+    
+.first-section__article p:nth-last-of-type(1){
+    margin-top: 50px;
+}
+.section-button{
+    padding: 17px 30px;
+    background-color: #80b7b3;
+    border-radius: 50px;
+    margin-top: 42px;
+    width: 200px;
+    color: #ffff; 
+    }
+.section-button::after{
+    content: "\2192";
+    font-size: 22px;
+    margin-left: 18px;
+    vertical-align: middle;
+}
+.gap-img{
+    position: absolute;
+    margin: 58px 0 0 50px;
+    border: 9px solid white;
+    top: 0;
+    left: 0;
+}
+.wrapper-img{
+    position: relative;
+
+   
+}
